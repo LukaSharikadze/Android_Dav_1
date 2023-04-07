@@ -81,9 +81,11 @@
             android:background="@drawable/border"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
             android:paddingLeft="20dp"
-            android:textColor="#99a8ba"/>
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:textColorHint="#99a8ba"/>
+
         <EditText
             android:id="@+id/editEmail"
             android:layout_width="260dp"
@@ -95,9 +97,10 @@
             android:background="@drawable/border"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="E-mail"
+            android:hint="E-mail"
             android:paddingLeft="20dp"
-            android:textColor="#99a8ba"/>
+            android:textColor="@color/black"
+            android:textColorHint="#99a8ba"/>
 
         <EditText
             android:id="@+id/editPass"
@@ -110,9 +113,10 @@
             android:background="@drawable/border"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Password"
+            android:hint="Password"
             android:paddingLeft="20dp"
-            android:textColor="#99a8ba"/>
+            android:textColor="@color/black"
+            android:textColorHint="#99a8ba"/>
 
         <EditText
             android:id="@+id/editNumber"
@@ -125,9 +129,10 @@
             android:background="@drawable/border"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Phone Number"
+            android:hint="Phone Number"
             android:paddingLeft="20dp"
-            android:textColor="#99a8ba"/>
+            android:textColor="@color/black"
+            android:textColorHint="#99a8ba"/>
 
 
 
